@@ -1,0 +1,28 @@
+html{
+    background-color: black;
+}
+
+
+h1{
+    text-transform: uppercase;
+    font-size: 3rem;
+    color:antiquewhite;
+    text-align: center;
+}
+
+img{
+    border: 5px solid whitesmoke;
+    height: 300px;
+    width: 450px;
+    
+}
+
+p{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 18pt;
+}
+
+.poster{
+    text-align: center;
+}
