@@ -9,12 +9,33 @@
       rel="stylesheet"
     />
     <style>
+      
+      .pricing-container{
+        text-align: center;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        flex-basis: auto;
+        
+      }
+
+      
       body {
         font-family: "Sono", sans-serif;
       }
 
       /* Hint: What can you do with a media query and flexbox? */
       @media (max-width: 1250px) {
+        body{
+          flex-direction: column;
+        }
+        
+       
+      }
+
+      .plan-button{
+        background-color: #4CAF50;
       }
     </style>
   </head>
@@ -22,7 +43,7 @@
   <body>
     <div class="pricing-container">
       <div class="pricing-plan">
-        <div class="plan-title">Basic</div>
+        <div class="plan-title" >Basic</div>
         <div class="plan-price">$9.99/month</div>
         <ul class="plan-features">
           <li>✅ 10GB Storage</li>
